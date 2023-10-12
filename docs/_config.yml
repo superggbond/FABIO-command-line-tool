@@ -3,7 +3,7 @@ name: mtPGS
 
 project:
   version: 1.0.0
-  download_url: https://github.com/xuchang0201/mtPGS/
+  download_url: https://github.com/superggbond/FABIO/
   download_text: Download
 
 license:
@@ -15,20 +15,20 @@ links:
     - title: GitHub
       icon: github
       brand: true
-      url: https://github.com/xuchang0201/mtPGS/
+      url: https://github.com/superggbond/FABIO/
   homepage:
     - title: View on GitHub
       icon: github
       brand: true
-      url: https://github.com/xuchang0201/mtPGS/
+      url: https://github.com/superggbond/FABIO/
   footer:
     - title: GitHub
       icon: github
       brand: true
-      url: https://github.com/xuchang0201/mtPGS/
+      url: https://github.com/superggbond/FABIO/
     - title: Issues
       icon: bug
-      url: https://github.com/xuchang0201/mtPGS/issues
+      url: https://github.com/superggbond/FABIO/issues
 
 ui:
   mode: 'light' # 'auto', 'dark', 'light'
@@ -56,8 +56,8 @@ ui:
 
 social:
   github:
-    user: xuchang0201
-    repo: mtPGS
+    user: superggbond
+    repo: FABIO
   twitter:
     enabled: false
     via:
