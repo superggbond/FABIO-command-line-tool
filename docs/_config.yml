@@ -1,0 +1,77 @@
+remote_theme: allejo/jekyll-docs-theme
+name: mtPGS
+
+project:
+  version: 1.0.0
+  download_url: https://github.com/xuchang0201/mtPGS/
+  download_text: Download
+
+license:
+  software: GNU License 3.0
+  software_url: https://www.gnu.org/licenses/licenses.en.html
+ 
+links:
+  header:
+    - title: GitHub
+      icon: github
+      brand: true
+      url: https://github.com/xuchang0201/mtPGS/
+  homepage:
+    - title: View on GitHub
+      icon: github
+      brand: true
+      url: https://github.com/xuchang0201/mtPGS/
+  footer:
+    - title: GitHub
+      icon: github
+      brand: true
+      url: https://github.com/xuchang0201/mtPGS/
+    - title: Issues
+      icon: bug
+      url: https://github.com/xuchang0201/mtPGS/issues
+
+ui:
+  mode: 'light' # 'auto', 'dark', 'light'
+  brand:
+    dark: "#00ceff"
+    light: "#36A7B9"
+  border_color:
+    dark: "#2A58C3"
+    light: "#dee2e6"
+  header:
+    trianglify: true
+    dark:
+      color1: "#062a48"
+      color2: "#304e67"
+    light:
+      color1: "#336665"
+      color2: "#007acc"
+  masthead:
+    color:
+      dark: "#fff"
+      light: "#fff"
+    align:
+      homepage: 'center'
+      page: 'left'
+
+social:
+  github:
+    user: xuchang0201
+    repo: mtPGS
+  twitter:
+    enabled: false
+    via:
+    hash:
+    account:
+  facebook:
+    enabled: false
+    profileUrl:
+
+analytics:
+  google: UA-123456-1
+
+# Build settings
+markdown: kramdown
+exclude:
+  - LICENSE.md
+  - README.md
