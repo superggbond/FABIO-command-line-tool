@@ -1,19 +1,19 @@
 ---
 layout: page
-title: mtPGS Tutorial
+title: FABIO Tutorial
 description: ~
 ---
-This page provides a tutorial for PGS construction using mtPGS. Before runing the example code, make sure that the mtPGS software is installed and compiled successfully. For instructions on installation, please see the [Installation section](https://xuchang0201.github.io/mtPGS/documentation/02_installation.html).
+This page provides a tutorial for TWAS fine-mapping using FABIO. Before runing the example code, make sure that the FABIO software is installed successfully. For instructions on installation, please see the [Installation section](https://superggbond.github.io/FABIO/documentation/02_installation.html).
 
-## mtPGS
-The example data for mtPGS tutorial can be downloaded in this [page](https://xuchang0201.github.io/mtPGS/documentation/03_data.html). Here are the details about the input data formats and mtPGS commands. 
-### 1. Formats of input data for mtPGS
+## FABIO
+The example data for FABIO tutorial can be downloaded in this [page](https://superggbond.github.io/FABIO/documentation/03_data.html). Here are the details about the input data formats and FABIO commands. 
+### 1. Formats of input data for FABIO
 * GWAS summary statistics: We require the GWAS summary statistics in [GEMMA](https://github.com/genetics-statistics/GEMMA) format, with the following columns: chr, rs, ps, n_mis, n_obs, allele1, allele0, af, beta, se, p_wald. Please be advised that each column should be separated using tab. 
 * Reference panel: The reference panel for LD matrix should be in PLINK binary format (bed, bim, and fam).
 * LD block information: We use the LD block information from [Berisa et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4731402/), and we provide a formatted text file in the [data](https://github.com/xuchang0201/mtPGS/tree/main/data) as input for mtPGS.
 * Genetic and environmental variance component matrices: These matrices should be formatted as a plain text, see [example](https://github.com/xuchang0201/mtPGS/blob/main/data/v_g.txt). In this example, we assume that the heritability of the two traits is 0.5, and the genetic covariance is 0.25. We recommend using [GECKO](https://github.com/borangao/GECKO) for the estimation of genetic and environmental variance components.
 
-### 2. Running mtPGS with four sets of GWAS summary statistics
+### 2. Running FABIO
 When four sets of GWAS summary statistics are available (one for overlapped individuals and one for non-overlapped individuals for each trait), and we designate trait 1 as the target trait, the PGS construction for the target trait can be performed using the following command
 ```
 workdir=/your/mtPGS/directory #specify the mtPGS directory
@@ -35,7 +35,7 @@ The essential inputs are:
 - ve: specify the directory of environmental variance components file.
 - output: specify the prefix of output files.
 
-### 3. Running mtPGS with two sets of GWAS summary statistics
+### 3. FABIO output
 When only two sets of summary statistics are available (one for each trait), we perform mtPGS analysis using the following command
 ```
 workdir=/your/mtPGS/directory #specify the mtPGS directory
