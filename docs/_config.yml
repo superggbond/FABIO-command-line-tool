@@ -1,5 +1,5 @@
 remote_theme: allejo/jekyll-docs-theme
-name: mtPGS
+name: FABIO
 
 project:
   version: 1.0.0
@@ -31,12 +31,12 @@ links:
       url: https://github.com/superggbond/FABIO/issues
 
 ui:
-  mode: 'dark' # 'auto', 'dark', 'light'
+  mode: 'auto' # 'auto', 'dark', 'light'
   brand:
     dark: "#00ceff"
-    light: "#36A7B9"
+    light: "#a20000"
   border_color:
-    dark: "#2A58C3"
+    dark: "#5f5f5f"
     light: "#dee2e6"
   header:
     trianglify: true
@@ -44,8 +44,8 @@ ui:
       color1: "#062a48"
       color2: "#304e67"
     light:
-      color1: "#336665"
-      color2: "#007acc"
+      color1: "#080331"
+      color2: "#673051"
   masthead:
     color:
       dark: "#fff"
