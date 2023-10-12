@@ -6,7 +6,7 @@ FABIO is a novel TWAS fine-mapping method that relies on a probit model to direc
 
 ## How to use FABIO
 
-See [Tutorial](https://github.com/superggbond/FABIO/tree/main) for detailed documentation and examples.
+See [Tutorial](https://superggbond.github.io/FABIO/) for detailed documentation and examples.
 
 ## Issues
 
