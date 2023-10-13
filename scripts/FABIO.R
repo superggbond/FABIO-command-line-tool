@@ -38,7 +38,7 @@ X = as.data.frame(X)
 gene_names = as.vector(X[,1])
 X = scale(t(X[,-1]))
 y = fread(opt$pheno)
-y = y$pheno-1
+y = y$pheno
 
 w_step = opt$`w-step`
 s_step = opt$`s-step`
