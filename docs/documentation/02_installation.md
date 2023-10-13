@@ -16,5 +16,6 @@ git clone https://github.com/superggbond/FABIO.git
 ```
 #### 2. Check the input options included in `FABIO`
 ```
+cd ./FABIO
 Rscript ./scripts/FABIO.R -h
 ```
