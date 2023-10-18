@@ -4,7 +4,7 @@ title: Installation
 description: ~
 ---
 
-`FABIO` is implemented as a command-line tool, which can be installed from GitHub by:
+`FABIO` is implemented as a command-line tool, which can be installed from GitHub.
 
 ### Dependencies 
 * R libraries: Rcpp, RcppArmadillo, data.table, and optparse
