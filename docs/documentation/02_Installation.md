@@ -12,10 +12,10 @@ description: ~
 
 #### 1. Install `FABIO`
 ```
-git clone https://github.com/superggbond/FABIO.git
+git clone https://github.com/superggbond/FABIO-command-line-tool.git
 ```
 #### 2. Check the input options included in `FABIO`
 ```
-cd ./FABIO/scripts
+cd ./FABIO-command-line-tool/scripts
 Rscript ./FABIO.R -h
 ```
